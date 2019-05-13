@@ -1,7 +1,7 @@
 # FFmpeg-CUDA
-**最近领导布置一个用CUDA解码USB摄像头的任务，小白从头学习...**
-**实现流程： v4l2 -- ffmpeg -- opencv**
-**待更新...**
+**最近领导布置一个用CUDA解码USB摄像头的任务，小白从头学习...**    
+**实现流程： v4l2 -- ffmpeg -- opencv**    
+**待更新...**      
 
 -----
 ### Introduction
