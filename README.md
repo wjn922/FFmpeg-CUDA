@@ -3,6 +3,19 @@
 #### 实现流程： v4l2 -- ffmpeg -- opencv
 #### 待更新...
 
+-----
+### Introduction
+* Ubuntu16.04
+* 需要编译opencv库和ffmpeg库 
+
+### How to Use
+**2019/5/13 Code/ff_camera.cpp**
+```
+cd Code
+make 
+./camera
+```
+
 ------
 ### Reference 
 * 首推雷神的各种资料
