@@ -6,7 +6,9 @@
 -----
 ### Introduction
 * Ubuntu16.04
-* 需要编译opencv库和ffmpeg库 （/Docs里有ffmpeg库的安装说明）
+* 需要编译opencv库和ffmpeg库 （/Docs里有ffmpeg库的安装说明）    
+* opencv 3.4.0
+* ffmpeg 4.1.3
 
 ### How to Use
 #### **2019/5/13 Code/ff_camera.cpp**    
