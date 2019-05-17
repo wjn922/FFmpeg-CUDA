@@ -11,7 +11,7 @@
 * ffmpeg 4.1.3
 
 ### How to Use
-#### **2019/5/13 Code/ff_camera.cpp**    
+#### **1、2019/5/13 Code/ff_camera.cpp**    
 
 采用ffmpeg的CPU解码，并用opencv显示
 ```
@@ -20,8 +20,15 @@ make
 ./camera
 ```
 
+#### **2、CUDA解码**
+CUDA解码的核心为三个类    
+**VideoSource**，**VideoParser**，**VideoDecoder**     
+其框架关系贴一张 [博客](https://blog.csdn.net/poweroranger/article/details/77845238)上的图
+![](./Docs/CUDA.jpg)
+
 ------
 ### Reference 
+#### **入门**
 * 首推雷神的各种资料
 * **https://blog.csdn.net/leixiaohua1020/article/details/39702113**
 * **https://blog.csdn.net/ice__snow/article/details/78608681**
@@ -30,3 +37,11 @@ make
 * https://blog.csdn.net/scarecrow_wiscom/article/details/10614145#
 * https://blog.csdn.net/teleger/article/details/80716947
 * https://www.jianshu.com/p/6ef3c18d61b0
+
+#### **CUDA**
+* 关于硬编解码资料不多，还是看源码吧
+* https://developer.nvidia.com/nvidia-video-codec-sdk
+* https://www.cnblogs.com/betterwgo/p/6613641.html
+* https://blog.csdn.net/huangyifei_1111/article/details/86086486
+* https://blog.csdn.net/poweroranger/article/details/77845238
+* https://blog.csdn.net/xiaoyafang123/article/details/79863178
