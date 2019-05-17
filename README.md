@@ -22,7 +22,7 @@ make
 
 #### **2、CUDA解码**
 CUDA解码的核心为三个类： **VideoSource**， **VideoParser**， **VideoDecoder**     
-其框架关系贴一张 [博客] (https://blog.csdn.net/poweroranger/article/details/77845238)上的图<br><br>
+其框架关系贴一张 [博客](https://blog.csdn.net/poweroranger/article/details/77845238) 上的图<br><br>
 ![](./Docs/CUDA.jpg)
 
 ------
