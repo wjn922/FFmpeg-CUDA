@@ -1,7 +1,7 @@
 # FFmpeg-CUDA
 **最近领导布置一个用CUDA解码USB摄像头的任务，小白从头学习...**    
 **实现流程： v4l2 -- ffmpeg -- opencv**    
-**待更新...**      
+~~**待更新...**~~     
 
 -----
 ### Introduction
@@ -11,8 +11,8 @@
 * ffmpeg 4.1.3
 
 ### How to Use
-#### **1、2019/5/13 Code/ff_camera.cpp**    
-
+#### **1、CPU解码**    
+2019/5/13 Code/ff_camera.cpp<br>
 采用ffmpeg的CPU解码，并用opencv显示
 ```
 cd Code
